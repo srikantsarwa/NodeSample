@@ -6,7 +6,7 @@ var server = http.createServer(function (request, response) {
     response.writeHead(200, {'Content-Type': 'text/plain'});
     
     // Send the response body as "Hello World"
-    response.end('Hello World 2\n');
+    response.end('Hello World Sample in Node JS\n');
  });
 
  var port = process.env.PORT || 1337;
