@@ -1,4 +1,8 @@
 var http = require("http");
+const appInsights = require("applicationinsights");
+appInsights.setup("28dbedcf-8d0f-4576-b859-aa387d7588b8");
+appInsights.start();
+
 var server = http.createServer(function (request, response) {
     // Send the HTTP header 
     // HTTP Status: 200 : OK

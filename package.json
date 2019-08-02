@@ -14,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/srikantsarwa/NodeSample/issues"
   },
-  "homepage": "https://github.com/srikantsarwa/NodeSample#readme"
+  "homepage": "https://github.com/srikantsarwa/NodeSample#readme",
+  "dependencies": {
+    "applicationinsights": "^1.4.0"
+  }
 }
